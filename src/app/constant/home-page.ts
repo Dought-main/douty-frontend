@@ -1,28 +1,43 @@
-const subHeroCard = [
+interface SubHeroCard {
+    title: string;
+    image: string;
+    subText: string;
+}
+
+interface UserJourneyCard {
+    title: string;
+    number: string;
+    subText: string;
+}
+
+interface WhyChooseUs {
+    text: string;
+}
+
+const subHeroCard: SubHeroCard[] = [
     {
         title: "Instant Doubt Solving",
-        image: "../../../public/a1.png",
+        image: "/a1.png",
         subText: "Get expert answers to your academic questions in minutes!"
     },
     {
         title: "Expert Tutors",
-        image: "../../../public/a2.png",
+        image: "/a2.png",
         subText: "Learn from experienced professionals with proven expertise!"
     },
     {
         title: "Freelance Opportunity",
-        image: "../../../public/a3.png",
+        image: "/a3.png",
         subText: "Earn as you learn with flexible freelance opportunities!"
     },
     {
         title: "Smart Learning",
-        image: "../../../public/a4.png",
+        image: "/a4.png",
         subText: "AI-powered recommendations for personalized learning"
-    },
+    }
+];
 
-]
-
-const userJourneyCard = [
+const userJourneyCard: UserJourneyCard[] = [
     {
         title: "Sign up free and join our learning community in seconds!",
         number: "01",
@@ -37,10 +52,10 @@ const userJourneyCard = [
         title: "Get clear explanations and step-by-step guidance!",
         number: "03",
         subText: "Get help"
-    },
-]
+    }
+];
 
-const whyChooseUse = [
+const whyChooseUs: WhyChooseUs[] = [
     {
         text: "Fast & Easy – Learn in just a few steps."
     },
@@ -50,5 +65,6 @@ const whyChooseUse = [
     {
         text: "Anytime, Anywhere – Access learning on the go."
     }
+];
 
-]
+export { subHeroCard, userJourneyCard, whyChooseUs };
