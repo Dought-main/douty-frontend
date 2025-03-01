@@ -39,19 +39,19 @@ const subHeroCard: SubHeroCard[] = [
 
 const userJourneyCard: UserJourneyCard[] = [
     {
-        title: "Sign up free and join our learning community in seconds!",
+        subText: "Sign up free and join our learning community in seconds!",
         number: "01",
-        subText: "Sign up for free"
+        title: "Sign up for free"
     },
     {
-        title: "Ask your question and connect with expert tutors!",
+        subText: "Ask your question and connect with expert tutors!",
         number: "02",
-        subText: "Ask your doubt"
+        title: "Ask your doubt"
     },
     {
-        title: "Get clear explanations and step-by-step guidance!",
+        subText: "Get clear explanations and step-by-step guidance!",
         number: "03",
-        subText: "Get help"
+        title: "Get help"
     }
 ];
 
