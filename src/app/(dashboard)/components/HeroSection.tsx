@@ -7,17 +7,17 @@ import hero from "../../../../public/hero.png";
 
 const HeroSection = () => {
     return (
-        <header className="flex flex-col lg:flex-row items-center justify-between gap-8 px-6 py-4 max-w-6xl mx-auto">
-            <div className="text-center lg:text-left space-y-5 max-w-lg">
-                <p className="font-bold text-2xl text-primary">Introducing Doutly</p>
-                <h1 className="text-6xl  font-bold text-gray-900 leading-tight">
-                    Get Your <span className="text-primary">Dou</span>bts SolvedInstan<span className="text-primary">tly</span>
+        <header className="flex flex-col lg:flex-row items-center justify-evenly   mx-auto ">
+            <div className="sm:text-center  space-y-5 max-w-lg ">
+                <p className="font-bold text-2xl text-primary ">Introducing Doutly</p>
+                <h1 className="sm:text-6xl text-4xl font-bold text-gray-900 leading-tight text-left">
+                    Get Your <span className="text-primary">Dou</span>bts Solved Instan<span className="text-primary">tly</span>
                 </h1>
-                <p className="text-lg text-gray-600">
+                <p className="text-lg text-gray-600 text-left">
                     Unlock <strong>instant guidance</strong>, expert tutors, and freelance opportunities—excel in your field with Doutly!
                 </p>
 
-                <div className="flex flex-col sm:flex-row items-center gap-6">
+                <div className="flex justify-center md:justify-start items-center gap-6">
                     <Button variant="default" className="text-lg px-6 py-3 rounded-4xl shadow-gray-500 shadow-custom">
                         Join Us
                     </Button>
@@ -33,15 +33,13 @@ const HeroSection = () => {
                 </div>
             </div>
 
-
-            <div className="w-full max-w-md">
                 <Image
+                className="sm:pt-0 pt-8 "
                     alt="Hero Section - Doutly"
                     src={hero}
                     priority
-                    className="w-full h-auto"
+                    
                 />
-            </div>
         </header>
     );
 };

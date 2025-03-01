@@ -5,7 +5,7 @@ import SubSection3 from './(dashboard)/components/SubSection3'
 
 const page = () => {
   return (
-    <div>
+    <div className='px-4 md:px-0'>
       <HeroSection />
       <SubHeroSection />
       <SubSection3/>
