@@ -7,7 +7,7 @@ import React from 'react'
 const SubSection3 = () => {
   return (
     <div className='flex justify-center items-center mt-2'>
-        <p className='text-primary transform rotate-270 origin-top-left  '>How It Works</p>
+        <p className='text-primary transform rotate-270 origin-top-left hidden sm:block  '>How It Works</p>
       <div className='flex-center flex-col mt-8 mb-3'>
                 <h1 className='heading'>
                     Your Learning Journey Starts Here
@@ -36,7 +36,7 @@ export default SubSection3
 const UserJourney=()=>{
     return <div className='flex flex-wrap justify-center space-x-30'>
                     {userJourneyCard.map((item, index)=>(
-                        <div className='flex items-baseline justify-evenly h-[145px] w-[350px] bg-gradient-to-b from-[#C3D4FF] to-[#FBFBFB] rounded-3xl ' key={
+                        <div className='flex items-baseline justify-evenly h-[145px] max-w-[350px] bg-gradient-to-b from-[#C3D4FF] to-[#FBFBFB] rounded-3xl ' key={
                             item.title+index
                         }> 
                             <div className='flex flex-col w-[75%] pt-3' > 
