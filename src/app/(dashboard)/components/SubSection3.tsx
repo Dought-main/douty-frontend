@@ -36,7 +36,7 @@ export default SubSection3
 const UserJourney=()=>{
     return <div className='flex flex-wrap justify-center space-x-30'>
                     {userJourneyCard.map((item, index)=>(
-                        <div className='flex items-baseline justify-evenly h-[145px] max-w-[350px] bg-gradient-to-b from-[#C3D4FF] to-[#FBFBFB] rounded-3xl ' key={
+                        <div className='flex items-baseline justify-evenly  bg-gradient-to-b from-[#C3D4FF] to-[#FBFBFB] rounded-3xl ' key={
                             item.title+index
                         }> 
                             <div className='flex flex-col w-[75%] pt-3' > 
